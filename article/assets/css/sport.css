@@ -1,0 +1,26 @@
+/* @Sport News Style */
+
+.sport figure .title {
+    color: var(--dark-blue-color);
+}
+.sport figure .detail {
+    padding: 15px;
+}
+.sport figure img {
+    border-radius: 10px 10px 0px 0px;
+}
+.sport figure .date {
+    color: var(--red-color);
+    margin: 10px 0px;
+}
+
+.sport .pagination ul {
+    display: flex;
+    margin-top: 20px;
+}
+.sport .pagination ul li a {
+    margin-right: 5px;
+    padding: 10px 15px;
+    color: var(--white-color);
+    background-color: var(--dark-blue-color);
+}
