@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    include 'function.php';
+    login_user();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,0 +1,47 @@
+ tblLogo{
+    logoID,
+    logo_thumbnail,
+    created_at,
+    location(header,footer)
+}
+tbNews{
+    newsID,
+    newsThumbnails,
+    newsBanner,
+    newsTitle,
+    created_at,
+    desciption,
+    newsCategory,
+    subCategory,
+    post_by,
+    viewer
+}
+tblSocial{
+    id,
+    name,
+    thumbnail,
+    url,
+    created_at,
+    location(header,footer)
+}
+tblFeedback{
+    id,
+    username,
+    email,
+    phone,
+    address,
+    feedback_content,
+    created_at
+}
+tblReview{
+    id,
+    content
+}
+tblUser{
+    id,
+    name,
+    email,
+    password,
+    profile,
+    created_at
+}

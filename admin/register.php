@@ -1,5 +1,6 @@
-<?php
+<?php 
     include 'function.php';
+    register_user();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +19,7 @@
             <label>Email</label>
             <input type="text" class="box" name="email">
             <label>Password</label>
-            <input type="password" class="box">
+            <input type="password" class="box" name="password">
             <input type="file" name="profile" class="box">
             <div class="wrap-btn">
                 <a href="login.php" class="btn">Back To Login</a>&ensp;
